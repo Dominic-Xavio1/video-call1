@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io("https://video-call1-1.onrender.com");
 const localVideo = document.getElementById('localVideo');
 const remoteVideo = document.getElementById('remoteVideo');
 const startBtn = document.getElementById('startBtn');
